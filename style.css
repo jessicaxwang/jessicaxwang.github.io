@@ -1,14 +1,14 @@
 /* Style sheet for lab4 */
 
 body {
-        background-color: #FCF0F5;
+        background-color: white;
         font-family: "Helvetica Neue";
         font-size: 24px;
-        weight: 300;
-        color: white;
+        color: #4057a7;
 }
 
 div {
         text-align: center;
-        color: white;
+        weight: 300;
+        line-height: 27px
 }

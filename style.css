@@ -7,9 +7,33 @@ body, html {
         background-color: #E6DDDE;
 }
 
-.column {
+#header {
+        float: center;
+        font: "Atlas Grotesk";
+        font-size: 40px;
+        color: white;
+}
+
+.leftcolumn {
+        text-align: center;
         float: left;
         width: 33.33%;
+        opacity: 0.2%;
+}
+
+.middlecolumn {
+        text-align: center;
+        float: middle;
+        width: 33.33%;
+        color: #654A4E;
+        opacity: 0.2%;
+}
+
+.rightcolumn {
+        text-align: center;
+        float: right;
+        width: 33.33%;
+        opacity: 0.2%;
 }
 
 .row:after {
@@ -18,13 +42,6 @@ body, html {
         clear: both;
 }
 
-
-/*#header {
-        font: "Atlas Grotesk";
-        font-size: 40px;
-        color: white;
-}
-*/
 /*div {
         text-align: center;
         font: "Atlas Grotesk";

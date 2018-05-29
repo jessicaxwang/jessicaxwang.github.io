@@ -7,6 +7,10 @@ body, html {
         background-color: #E6DDDE;
 }
 
+div {
+        column-count: 3;
+}
+
 #header {
         float: center;
         font: "Atlas Grotesk";
@@ -34,6 +38,12 @@ body, html {
         float: right;
         width: 33.33%;
         opacity: 0.2%;
+}
+
+.row:after {
+        content: "";
+        display: table;
+        clear: both;
 }
 
 /*div {

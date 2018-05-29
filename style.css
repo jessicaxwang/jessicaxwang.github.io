@@ -1,4 +1,7 @@
-/* Style sheet for lab4 */
+/* ***********************
+ * Jessica Wang
+ * Style sheet for lab4 
+ *************************/
 
 body {
         background-color: white;
@@ -13,7 +16,8 @@ div {
         line-height: 27px
 }
 
-img.resize{
+img.resize {
+        align-content: center;
         width: 50%;
         height: auto;
 }

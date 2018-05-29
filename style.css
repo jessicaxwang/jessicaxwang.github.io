@@ -13,8 +13,9 @@ body {
 
 #header {
         float: center;
-        font: "Atlas Grotesk";
+        font-family: "HelveticaNeue-Light", sans-serif;
         font-size: 40px;
+        font-weight: 300;
         color: white;
 }
 

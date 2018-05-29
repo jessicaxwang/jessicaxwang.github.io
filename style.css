@@ -3,41 +3,24 @@
  * Style sheet for lab4 
  *************************/
 
-body, html {
-        background-color: #E6DDDE;
+.container {
+        box-sizing: border-box;
 }
 
-div {
-        column-count: 3;
-}
-
-#header {
-        float: center;
-        font: "Atlas Grotesk";
-        font-size: 40px;
-        color: white;
-}
-
-.leftpane {
-        text-align: center;
+.column {
         float: left;
         width: 33.33%;
-        opacity: 0.2%;
+        padding: 10px;
+        height: auto;
+        background-color: white;
 }
 
 .middlepane {
-        text-align: center;
         float: center;
         width: 33.33%;
+        padding: 10px;
+        height: auto;
         background-color: #654A4E;
-        opacity: 0.2%;
-}
-
-.rightpane {
-        text-align: center;
-        float: right;
-        width: 33.33%;
-        opacity: 0.2%;
 }
 
 .row:after {
@@ -45,6 +28,13 @@ div {
         display: table;
         clear: both;
 }
+
+/*#header {
+        float: center;
+        font: "Atlas Grotesk";
+        font-size: 40px;
+        color: white;
+}*/
 
 /*div {
         text-align: center;

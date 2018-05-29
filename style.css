@@ -12,3 +12,8 @@ div {
         weight: 300;
         line-height: 27px
 }
+
+img.resize{
+        width: 50%;
+        height: auto;
+}

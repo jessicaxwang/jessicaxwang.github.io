@@ -14,32 +14,26 @@ body, html {
         color: white;
 }
 
-.leftcolumn {
+.leftpane {
         text-align: center;
         float: left;
         width: 33.33%;
         opacity: 0.2%;
 }
 
-.middlecolumn {
+.middlepane {
         text-align: center;
-        float: middle;
+        float: center;
         width: 33.33%;
-        color: #654A4E;
+        background-color: #654A4E;
         opacity: 0.2%;
 }
 
-.rightcolumn {
+.rightpane {
         text-align: center;
         float: right;
         width: 33.33%;
         opacity: 0.2%;
-}
-
-.row:after {
-        content: "";
-        display: table;
-        clear: both;
 }
 
 /*div {

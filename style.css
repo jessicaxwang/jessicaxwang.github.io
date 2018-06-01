@@ -30,6 +30,7 @@ body {
 
 img.resize {
         border-radius: 50%;
+        border: 0;
         display: block;
         margin-left: auto;
         margin-right: auto;

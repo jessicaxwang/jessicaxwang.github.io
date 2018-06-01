@@ -15,8 +15,8 @@ body {
 #header {
         float: center;
         font-family: "HelveticaNeue-Light", sans-serif;
-        font-size: 40px;
-        font-weight: 100;
+        font-size: 36px;
+        font-weight: 50;
         color: white;
 }
 
@@ -37,11 +37,15 @@ img.resize {
         height: auto;
 }
 
+ul {
+        list-style-type: none;
+}
+
 div {
         color: #654A4E;
         text-align: center;
         font-family: "HelveticaNeue-Light", sans-serif;
-        font-size: 12px;
+        font-size: 18px;
         font-weight: 100;
         color: #654A4E;
 }

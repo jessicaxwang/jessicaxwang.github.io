@@ -23,9 +23,9 @@ body {
 #biography {
         float: center;
         font-family: "HelveticaNeue-Light", sans-serif;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 100;
-        color: white;
+        color: #654A4E;
 }
 
 img.resize {
@@ -35,4 +35,13 @@ img.resize {
         margin-right: auto;
         width: 30%;
         height: auto;
+}
+
+div {
+        background-color: #654A4E;
+        text-align: center;
+        font-family: "HelveticaNeue-Light", sans-serif;
+        font-size: 12px;
+        font-weight: 100;
+        color: #654A4E;
 }
